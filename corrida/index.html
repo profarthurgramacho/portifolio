@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <title>Publicar e Testar Aplicações Web</title>
+  <title>1ª Corrida SENAC 2025</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbar-bottom/">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
@@ -99,15 +99,41 @@
   <main class="container">
     <div class="row justify-content-center">
       <div class="bg-body-tertiary p-5 rounded mt-5 pt-5 col-8 col-xs-12">
-        <h2>Publicar e Testar Aplicações Web</h2>
+        <div class="d-flex align-items-center">
+          <img src="assets/img/logo.jpg" alt="Logo" class="mr-3" style="flex: 0 0 20%; max-width: 20%; height: auto;">
+          <h2 class="ms-4">1ª Corrida SENAC 2025</h2>
+        </div>
+        <form action="" method="post">
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="insira seu nome">
+          </div>
 
-        <ul class="list-group pt-3">
-          <li class="list-group-item"><a href="/corrida/index.html" target="_blank" rel="noopener noreferrer">Formulário
-              Corrida</a></li>
-          <li class="list-group-item"><a href="https://compute-it.toxicode.fr/" target="_blank" rel="noopener noreferrer">Desafio de
-              Lógica/Algorítmos</a></li>
-          <li class="list-group-item"><a href="/docs/publicacao_githubpages.pdf" target="_blank" rel="noopener noreferrer">Publicação de Site no GitHub Pages</a></li>
-        </ul>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="insira seu nome">
+          </div>
+
+          <div class="mb-3">
+            <label for="nome" class="form-label">Telefone</label>
+            <input type="phone" class="form-control" id="nome" name="nome" placeholder="insira seu nome">
+          </div>
+
+          <div class="mb-3">
+            <label for="nome" class="form-label">Faixa Etária</label>
+            <select class="form-control" id="faixa_etaria" name="faixa_etaria" placeholder="selecione uma opção">
+              <option></option>
+              <option>Infantil</option>
+              <option>Adulto</option>
+              <option>Idoso</option>
+            </select>
+          </div>
+
+          <div class="mb-3 d-flex justify-content-end">
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+
+        </form>
       </div>
     </div>
   </main>
